@@ -80,3 +80,10 @@
         display: none;
     }
 }
+
+@media only screen and (min-width: 671px){
+
+    span.menu-icon{
+        display: none;
+    }
+}
