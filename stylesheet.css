@@ -1,0 +1,236 @@
+*{
+  box-sizing: border-box;
+}
+
+header{
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  border-radius: 5px;
+}
+
+input, textarea {
+  width: 400px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+footer{
+  width: 100%;
+  height: 100px;
+  background-color: #202d30;
+  padding: 8px;
+  color: aliceblue;
+  text-align: center;
+  font-family: Copse;
+}
+
+.container{
+  width: 100%;
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header-left{
+  float: left;
+  color: aliceblue;
+  font-family: Copse;
+  margin-top: -9px;
+}
+
+.header-right{
+  float: right;
+  font-family: Copse;
+}
+
+.header-right a{
+  line-height: 65px;
+  padding: 0 25px;
+  color: aliceblue;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover{
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.container-content{
+  width: 100%;
+  background-image: url(background_gitar.jpg);
+  height: 700px;
+  background-size: cover;
+  margin: 0 auto;
+  padding: 180px 15px 100px 15px;
+  transition: .5s ease;
+  color: white;
+  font-family: Copse;
+  text-align: center;
+  position: relative;
+}
+
+.container-content:hover{
+  background-image: url(background_transparent.jpg);
+}
+
+.content-top{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content-top h1{
+  font-size: 75px;
+  margin-bottom: 10px;
+  margin-top: 150px;
+}
+
+.content-top p{
+  font-size: 18px;
+}
+
+.button{
+  width: 200px;
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 10px;
+  transition: .5s ease;
+  background-color: #181818;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.button:hover{
+  background-color: white;
+  color: black;
+  border-radius: 1px;
+}
+
+.wrapper-ctn-bwh{
+  background-color: #f7f7f7;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.heading h2{
+  font-family: Copse;
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+.social_media img{
+  width: 35px;
+  height: 35px;
+  padding: 8px;
+}
+
+.social_media img:hover{
+  border-color: #f2f2f2;
+  border-width: 1px;
+  border-style: dashed;
+}
+
+footer p{
+  font-size: 13px;
+  line-height: 10px;
+}
+
+.social_media{
+  margin-top: -10px;
+}
+
+.main-form{
+  margin-bottom: 100px;
+  margin-left: 30px;
+  font-family: Copse;
+}
+
+.form-title{
+  font-size: 28px;
+  border-bottom: 2px solid #dee7ec;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+.btn-kirim {
+  font-size: 18px;
+  background-color: #dee7ec;
+  color: #889eab;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 10px;
+  display: none;
+}
+
+.fa{
+  margin-right: 5px;
+}
+
+.wrapper-ctn-tambahan{
+  text-align: center;
+  padding-bottom: 50px;
+  margin-bottom: 150px;
+  width: 100%;
+}
+
+.heading-ctn-tambahan h2{
+  font-family: Copse;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+.member{
+  float: left;
+  width: 20%;
+}
+
+.member-icon{
+  position: relative;
+}
+
+.member h3{
+  position: absolute;
+  top: 78%;
+  width: 100%;
+  font-family: Copse;
+}
+
+.member button{
+  width: 50%;
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 10px;
+  transition: .5s ease;
+  background-color: #181818;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: Copse;
+}
+
+.member button:hover{
+  background-color: white;
+  color: black;
+  border-radius: 1px;
+  cursor: pointer;
+}
