@@ -1,0 +1,46 @@
+@media all and (max-width: 670px){
+
+    input, textarea{
+        width: 100%;
+    }
+
+    iframe{
+        width: auto;
+        height: 200px;
+    }
+
+    .header-right{
+        display: none;
+    }
+
+    .menu-icon{
+        display: block;
+    }
+
+    .content-top h1{
+        font-size: 40px;
+    }
+
+    .content-top p{
+        font-size: 14px;
+    }
+
+    .button{
+        width: 100%;
+    }
+
+    footer p{
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .social_media img{
+        width: 30px;
+        height: 30px;
+        padding: 8px;
+    }
+
+    .member{
+        width: 100%;
+    }
+}
